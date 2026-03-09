@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然资源安全保障 - 国土安全科普</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary-color: #1a365d; --secondary-color: #2c5282; --accent-color: #e53e3e; --gold-color: #d69e2e; --text-dark: #2d3748; --bg-light: #edf2f7; }
+        body { font-family: 'Noto Sans SC', sans-serif; line-height: 1.8; color: var(--text-dark); background-color: var(--bg-light); }
+        .navbar { position: fixed; top: 0; width: 100%; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 15px 50px; z-index: 1000; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+        .logo { display: flex; align-items: center; gap: 10px; color: white; font-size: 1.5rem; font-weight: 700; }
+        .logo a { color: white; text-decoration: none; }
+        .nav-links { display: flex; list-style: none; gap: 20px; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s; }
+        .nav-links a:hover { background: rgba(255,255,255,0.2); }
+        .page-hero { padding: 140px 10% 80px; background: linear-gradient(rgba(26,54,93,0.85), rgba(44,82,130,0.9)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&q=80'); background-size: cover; background-position: center; color: white; text-align: center; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9; }
+        .breadcrumb a { color: white; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .page-hero h1 { font-size: 3rem; margin-bottom: 15px; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .page-hero .subtitle { font-size: 1.2rem; max-width: 700px; margin: 0 auto; opacity: 0.95; }
+        .content-section { padding: 80px 10%; max-width: 900px; margin: 0 auto; }
+        .content-block { background: white; border-radius: 15px; padding: 40px 50px; margin-bottom: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); }
+        .content-block h2 { font-size: 1.6rem; color: var(--primary-color); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid var(--gold-color); }
+        .content-block h3 { font-size: 1.3rem; color: var(--secondary-color); margin: 25px 0 12px; }
+        .content-block p { color: #4a5568; margin-bottom: 15px; text-align: justify; }
+        .highlight-box { background: linear-gradient(135deg, var(--bg-light), #e2e8f0); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 4px solid var(--gold-color); }
+        .highlight-box p { margin: 0; font-weight: 500; color: var(--primary-color); }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 25px; background: var(--accent-color); color: white; text-decoration: none; border-radius: 50px; font-weight: 500; margin-top: 30px; transition: all 0.3s; }
+        .back-btn:hover { background: #c53030; transform: translateX(-5px); }
+        footer { background: var(--primary-color); color: white; padding: 30px 10%; text-align: center; font-size: 0.9rem; opacity: 0.9; }
+        @media (max-width: 768px) { .navbar { padding: 15px 20px; } .page-hero h1 { font-size: 2rem; } .content-block { padding: 25px 20px; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">🛡️ 国土安全科普</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html#domains">核心领域</a></li>
+            <li><a href="index.html">返回首页</a></li>
+        </ul>
+    </nav>
+    <section class="page-hero">
+        <div class="breadcrumb"><a href="index.html">首页</a> / 核心领域 / 自然资源安全保障</div>
+        <h1>⛰️ 自然资源安全保障</h1>
+        <p class="subtitle">保护国家重要自然资源，确保资源可持续利用</p>
+    </section>
+    <section class="content-section">
+        <div class="content-block">
+            <h2>领域概述</h2>
+            <p>自然资源安全保障是国土安全的重要组成部分，指国家重要自然资源的可持续利用和安全供应。自然资源是国家发展的物质基础，包括土地、矿产、水资源、森林资源等。确保自然资源安全，对于国家经济发展和人民生活至关重要。</p>
+            <div class="highlight-box"><p>💡 自然资源是国家发展的物质基础，保护和合理利用自然资源是维护国土安全的重要任务。</p></div>
+        </div>
+        <div class="content-block">
+            <h2>主要内涵</h2>
+            <h3>一、土地资源安全</h3>
+            <p>保护耕地资源，确保粮食安全。加强土地管理，合理利用土地资源，防止土地退化和流失。</p>
+            <h3>二、矿产资源安全</h3>
+            <p>保障战略矿产资源的供应和安全，加强矿产资源勘探和开发，提高资源利用效率。</p>
+            <h3>三、水资源安全</h3>
+            <p>保障水资源的可持续利用，加强水资源管理和保护，防止水污染和水短缺。</p>
+            <h3>四、森林资源安全</h3>
+            <p>保护森林资源，维护生态平衡，防止森林破坏和荒漠化。</p>
+        </div>
+        <div class="content-block">
+            <h2>面临的挑战</h2>
+            <p>当前自然资源安全面临诸多挑战：资源短缺与需求增长的矛盾突出，资源利用效率不高，环境污染和生态破坏严重，国际资源竞争加剧。必须加强资源节约和环境保护，提高资源利用效率，保障资源安全供应。</p>
+        </div>
+        <div class="content-block">
+            <h2>公民可以做什么</h2>
+            <p>增强资源节约意识，节约水、电、气等资源；支持循环经济，减少资源浪费；不参与破坏自然资源的行为；积极参与环境保护活动；发现破坏自然资源的行为及时举报。</p>
+            <a href="index.html#domains" class="back-btn">← 返回核心领域</a>
+        </div>
+    </section>
+    <footer>🛡️ 国土安全科普 · 普及国家安全知识 · 共筑国家安全防线</footer>
+</body>
+</html>

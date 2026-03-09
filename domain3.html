@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关键基础设施防护 - 国土安全科普</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary-color: #1a365d; --secondary-color: #2c5282; --accent-color: #e53e3e; --gold-color: #d69e2e; --text-dark: #2d3748; --bg-light: #edf2f7; }
+        body { font-family: 'Noto Sans SC', sans-serif; line-height: 1.8; color: var(--text-dark); background-color: var(--bg-light); }
+        .navbar { position: fixed; top: 0; width: 100%; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); padding: 15px 50px; z-index: 1000; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+        .logo { display: flex; align-items: center; gap: 10px; color: white; font-size: 1.5rem; font-weight: 700; }
+        .logo a { color: white; text-decoration: none; }
+        .nav-links { display: flex; list-style: none; gap: 20px; }
+        .nav-links a { color: white; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s; }
+        .nav-links a:hover { background: rgba(255,255,255,0.2); }
+        .page-hero { padding: 140px 10% 80px; background: linear-gradient(rgba(26,54,93,0.85), rgba(44,82,130,0.9)), url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&q=80'); background-size: cover; background-position: center; color: white; text-align: center; }
+        .breadcrumb { margin-bottom: 20px; font-size: 0.95rem; opacity: 0.9; }
+        .breadcrumb a { color: white; text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .page-hero h1 { font-size: 3rem; margin-bottom: 15px; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .page-hero .subtitle { font-size: 1.2rem; max-width: 700px; margin: 0 auto; opacity: 0.95; }
+        .content-section { padding: 80px 10%; max-width: 900px; margin: 0 auto; }
+        .content-block { background: white; border-radius: 15px; padding: 40px 50px; margin-bottom: 30px; box-shadow: 0 10px 40px rgba(0,0,0,0.08); }
+        .content-block h2 { font-size: 1.6rem; color: var(--primary-color); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid var(--gold-color); }
+        .content-block h3 { font-size: 1.3rem; color: var(--secondary-color); margin: 25px 0 12px; }
+        .content-block p { color: #4a5568; margin-bottom: 15px; text-align: justify; }
+        .highlight-box { background: linear-gradient(135deg, var(--bg-light), #e2e8f0); padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 4px solid var(--gold-color); }
+        .highlight-box p { margin: 0; font-weight: 500; color: var(--primary-color); }
+        .back-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 25px; background: var(--accent-color); color: white; text-decoration: none; border-radius: 50px; font-weight: 500; margin-top: 30px; transition: all 0.3s; }
+        .back-btn:hover { background: #c53030; transform: translateX(-5px); }
+        footer { background: var(--primary-color); color: white; padding: 30px 10%; text-align: center; font-size: 0.9rem; opacity: 0.9; }
+        @media (max-width: 768px) { .navbar { padding: 15px 20px; } .page-hero h1 { font-size: 2rem; } .content-block { padding: 25px 20px; } }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">🛡️ 国土安全科普</a></div>
+        <ul class="nav-links">
+            <li><a href="index.html#domains">核心领域</a></li>
+            <li><a href="index.html">返回首页</a></li>
+        </ul>
+    </nav>
+    <section class="page-hero">
+        <div class="breadcrumb"><a href="index.html">首页</a> / 核心领域 / 关键基础设施防护</div>
+        <h1>🏗️ 关键基础设施防护</h1>
+        <p class="subtitle">保护国家关键基础设施，确保国家正常运转</p>
+    </section>
+    <section class="content-section">
+        <div class="content-block">
+            <h2>领域概述</h2>
+            <p>关键基础设施防护是国土安全的重要组成部分，指国家关键基础设施的安全运行和保护。关键基础设施包括能源、交通、通信、水利、电力等系统，是国家正常运转的重要保障。一旦关键基础设施遭受破坏，将严重影响国家经济和社会运行。</p>
+            <div class="highlight-box"><p>💡 关键基础设施是国家的"生命线"，保护关键基础设施安全是维护国土安全的重要任务。</p></div>
+        </div>
+        <div class="content-block">
+            <h2>核心内容</h2>
+            <h3>一、能源基础设施防护</h3>
+            <p>保护电力、石油、天然气等能源基础设施，确保能源供应稳定。防范能源设施遭受破坏和攻击，保障国家能源安全。</p>
+            <h3>二、交通基础设施防护</h3>
+            <p>保护公路、铁路、机场、港口等交通基础设施，确保交通运输安全顺畅。防范交通设施遭受破坏和攻击，保障国家交通运输安全。</p>
+            <h3>三、通信基础设施防护</h3>
+            <p>保护通信网络、卫星系统等通信基础设施，确保通信安全畅通。防范通信设施遭受破坏和攻击，保障国家通信安全。</p>
+            <h3>四、水利基础设施防护</h3>
+            <p>保护水库、堤坝、灌溉系统等水利基础设施，确保水资源安全。防范水利设施遭受破坏和攻击，保障国家水利安全。</p>
+        </div>
+        <div class="content-block">
+            <h2>面临的挑战</h2>
+            <p>当前关键基础设施防护面临诸多挑战：恐怖袭击、网络攻击、自然灾害等都可能威胁关键基础设施安全；部分关键基础设施技术依赖外部，存在安全隐患；基础设施老化和维护不足也可能影响安全运行。必须加强关键基础设施保护，提高安全防护能力。</p>
+        </div>
+        <div class="content-block">
+            <h2>公民可以做什么</h2>
+            <p>增强安全意识，不参与破坏关键基础设施的行为；发现破坏关键基础设施的行为及时举报；支持国家关键基础设施建设；节约能源和资源，减轻基础设施负担；关注关键基础设施安全相关政策和动态。</p>
+            <a href="index.html#domains" class="back-btn">← 返回核心领域</a>
+        </div>
+    </section>
+    <footer>🛡️ 国土安全科普 · 普及国家安全知识 · 共筑国家安全防线</footer>
+</body>
+</html>
